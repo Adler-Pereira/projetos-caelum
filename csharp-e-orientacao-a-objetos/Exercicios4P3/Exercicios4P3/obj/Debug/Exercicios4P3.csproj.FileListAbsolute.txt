@@ -1,0 +1,10 @@
+C:\Users\adler.lima\source\repos\Exercicios4P3\Exercicios4P3\bin\Debug\Exercicios4P3.exe.config
+C:\Users\adler.lima\source\repos\Exercicios4P3\Exercicios4P3\bin\Debug\Exercicios4P3.exe
+C:\Users\adler.lima\source\repos\Exercicios4P3\Exercicios4P3\bin\Debug\Exercicios4P3.pdb
+C:\Users\adler.lima\source\repos\Exercicios4P3\Exercicios4P3\obj\Debug\Exercicios4P3.csproj.AssemblyReference.cache
+C:\Users\adler.lima\source\repos\Exercicios4P3\Exercicios4P3\obj\Debug\Exercicios4P3.Form1.resources
+C:\Users\adler.lima\source\repos\Exercicios4P3\Exercicios4P3\obj\Debug\Exercicios4P3.Properties.Resources.resources
+C:\Users\adler.lima\source\repos\Exercicios4P3\Exercicios4P3\obj\Debug\Exercicios4P3.csproj.GenerateResource.cache
+C:\Users\adler.lima\source\repos\Exercicios4P3\Exercicios4P3\obj\Debug\Exercicios4P3.csproj.CoreCompileInputs.cache
+C:\Users\adler.lima\source\repos\Exercicios4P3\Exercicios4P3\obj\Debug\Exercicios4P3.exe
+C:\Users\adler.lima\source\repos\Exercicios4P3\Exercicios4P3\obj\Debug\Exercicios4P3.pdb
