@@ -35,5 +35,48 @@ namespace Exercicios6P7
             contaVictor.Saca(50.0);
             MessageBox.Show("Saldo: " + contaVictor.saldo);
         }
+
+        private void btnSacaDeposita_Click(object sender, EventArgs e)
+        {
+            Conta mauricio = new Conta();
+            mauricio.saldo = 2000;
+
+            Conta guilherme = new Conta();
+            guilherme.saldo = 5000;
+
+            mauricio.saldo -= 200.0;
+            guilherme.saldo += 200.0;
+
+            MessageBox.Show("mauricio = " + mauricio.saldo);
+            MessageBox.Show("guilherme = " + guilherme.saldo);
+        }
+
+        private void btnMauricioIgual_Click(object sender, EventArgs e)
+        {
+            Conta mauricio = new Conta();
+            mauricio.numero = 1;
+            mauricio.titular = "Mauricio";
+            mauricio.saldo = 100.0;
+
+            Conta mauricio2 = new Conta();
+            mauricio2.numero = 1;
+            mauricio2.titular = "Mauricio";
+            mauricio2.saldo = 100.0;
+
+            if (mauricio == mauricio2) MessageBox.Show("As contas são iguais");
+            else MessageBox.Show("As contas são diferentes");
+        }
+
+        private void btnCopia_Click(object sender, EventArgs e)
+        {
+            Conta mauricio = new Conta();
+            mauricio.saldo = 2000.0;
+
+            Conta copia = mauricio;
+            copia.saldo = 3000.0;
+
+            MessageBox.Show("mauricio = " + mauricio.saldo);
+            MessageBox.Show("copia = " + copia.saldo);
+        }
     }
 }
