@@ -29,6 +29,7 @@ namespace Exercicios6P7
         {
             Conta contaVictor = new Conta();
             contaVictor.titular = "victor";
+            contaVictor.idade_titular = 20;
             contaVictor.numero = 1;
             contaVictor.Deposita(100);
             MessageBox.Show("Saldo: " + contaVictor.saldo);
