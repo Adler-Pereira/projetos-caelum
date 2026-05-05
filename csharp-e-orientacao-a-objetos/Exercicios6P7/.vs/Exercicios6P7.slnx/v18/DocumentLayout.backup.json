@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|c:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\exercicios6p7\\exercicios6p7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|solutionrelative:exercicios6p7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\exercicios6p7\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|solutionrelative:exercicios6p7\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\exercicios6p7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|solutionrelative:exercicios6p7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\exercicios6p7\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|solutionrelative:exercicios6p7\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|c:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\exercicios6p7\\exercicios6p7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|solutionrelative:exercicios6p7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +30,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Conta.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\Exercicios6P7\\Conta.cs",
               "RelativeDocumentMoniker": "Exercicios6P7\\Conta.cs",
               "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\Exercicios6P7\\Conta.cs",
               "RelativeToolTip": "Exercicios6P7\\Conta.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T15:22:59.152Z"
+              "WhenOpened": "2026-05-04T15:22:59.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,14 +49,14 @@
               "RelativeDocumentMoniker": "Exercicios6P7\\Form1.cs",
               "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\Exercicios6P7\\Form1.cs",
               "RelativeToolTip": "Exercicios6P7\\Form1.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwBUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T15:16:54.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\Exercicios6P7\\Form1.cs",
               "RelativeDocumentMoniker": "Exercicios6P7\\Form1.cs",

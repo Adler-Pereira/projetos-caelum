@@ -1,0 +1,10 @@
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicios6P9\Exercicios6P9\obj\Debug\Exercicios6P9.csproj.AssemblyReference.cache
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicios6P9\Exercicios6P9\obj\Debug\Exercicios6P9.Form1.resources
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicios6P9\Exercicios6P9\obj\Debug\Exercicios6P9.Properties.Resources.resources
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicios6P9\Exercicios6P9\obj\Debug\Exercicios6P9.csproj.GenerateResource.cache
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicios6P9\Exercicios6P9\obj\Debug\Exercicios6P9.csproj.CoreCompileInputs.cache
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicios6P9\Exercicios6P9\bin\Debug\Exercicios6P9.exe.config
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicios6P9\Exercicios6P9\bin\Debug\Exercicios6P9.exe
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicios6P9\Exercicios6P9\bin\Debug\Exercicios6P9.pdb
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicios6P9\Exercicios6P9\obj\Debug\Exercicios6P9.exe
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicios6P9\Exercicios6P9\obj\Debug\Exercicios6P9.pdb
