@@ -9,20 +9,20 @@ namespace Exercicios6P7
 {
     class Conta
     {
-        public double saldo;
-        public Cliente titular;
-        public int numero;
+        public double Saldo { get; private set; }
+        public Cliente Titular { get; set; }
+        public int Numero { get; set; }
 
         public void Deposita(double valor)
         {
-            this.saldo += valor;
+            Saldo += valor;
         }
 
         public bool Saca(double valor)
         {
-            if (this.saldo >= valor)
+            if (Saldo >= valor)
             {
-                this.saldo -= valor;
+                Saldo -= valor;
                 return true;
             }
             return false;

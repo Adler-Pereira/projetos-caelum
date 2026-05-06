@@ -28,9 +28,9 @@ namespace Exercicios6P9
             Conta umaConta = new Conta();
             Cliente guilherme = new Cliente();
             guilherme.nome = "Guilherme Silveira";
-            umaConta.titular = guilherme;
+            umaConta.Titular = guilherme;
 
-            MessageBox.Show(umaConta.titular.nome);
+            MessageBox.Show(umaConta.Titular.nome);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -39,8 +39,8 @@ namespace Exercicios6P9
             Cliente guilherme = new Cliente();
             guilherme.rg = "12345678-9";
 
-            umaConta.titular = guilherme;
-            umaConta.titular.rg = "98765432-1";
+            umaConta.Titular = guilherme;
+            umaConta.Titular.rg = "98765432-1";
 
             MessageBox.Show(guilherme.rg);
         }
