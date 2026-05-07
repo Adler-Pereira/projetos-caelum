@@ -14,6 +14,16 @@ namespace Exercicios6P9
         public string cpf;
         public string endereco;
 
+        public Cliente()
+        {
+
+        }
+
+        public Cliente (string nome)
+        {
+            this.nome = nome;
+        }
+
         public bool EhMaiorDeIdade(int idade)
         {
             if (idade >= 18) return true;
