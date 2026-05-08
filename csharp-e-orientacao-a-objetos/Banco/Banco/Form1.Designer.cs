@@ -31,6 +31,9 @@
             this.textoTitular = new System.Windows.Forms.TextBox();
             this.textoNumero = new System.Windows.Forms.TextBox();
             this.textoSaldo = new System.Windows.Forms.TextBox();
+            this.textoValor = new System.Windows.Forms.TextBox();
+            this.botaoDeposito = new System.Windows.Forms.Button();
+            this.botaoSaque = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textoTitular
@@ -54,11 +57,41 @@
             this.textoSaldo.Size = new System.Drawing.Size(100, 20);
             this.textoSaldo.TabIndex = 2;
             // 
+            // textoValor
+            // 
+            this.textoValor.Location = new System.Drawing.Point(142, 113);
+            this.textoValor.Name = "textoValor";
+            this.textoValor.Size = new System.Drawing.Size(100, 20);
+            this.textoValor.TabIndex = 3;
+            // 
+            // botaoDeposito
+            // 
+            this.botaoDeposito.Location = new System.Drawing.Point(167, 153);
+            this.botaoDeposito.Name = "botaoDeposito";
+            this.botaoDeposito.Size = new System.Drawing.Size(75, 23);
+            this.botaoDeposito.TabIndex = 4;
+            this.botaoDeposito.Text = "button1";
+            this.botaoDeposito.UseVisualStyleBackColor = true;
+            this.botaoDeposito.Click += new System.EventHandler(this.botaoDeposito_Click);
+            // 
+            // botaoSaque
+            // 
+            this.botaoSaque.Location = new System.Drawing.Point(48, 153);
+            this.botaoSaque.Name = "botaoSaque";
+            this.botaoSaque.Size = new System.Drawing.Size(75, 23);
+            this.botaoSaque.TabIndex = 5;
+            this.botaoSaque.Text = "button1";
+            this.botaoSaque.UseVisualStyleBackColor = true;
+            this.botaoSaque.Click += new System.EventHandler(this.botaoSaque_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(283, 248);
+            this.Controls.Add(this.botaoSaque);
+            this.Controls.Add(this.botaoDeposito);
+            this.Controls.Add(this.textoValor);
             this.Controls.Add(this.textoSaldo);
             this.Controls.Add(this.textoNumero);
             this.Controls.Add(this.textoTitular);
@@ -75,6 +108,9 @@
         private System.Windows.Forms.TextBox textoTitular;
         private System.Windows.Forms.TextBox textoNumero;
         private System.Windows.Forms.TextBox textoSaldo;
+        private System.Windows.Forms.TextBox textoValor;
+        private System.Windows.Forms.Button botaoDeposito;
+        private System.Windows.Forms.Button botaoSaque;
     }
 }
 

@@ -1,0 +1,10 @@
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Banco\Banco\bin\Debug\Banco.exe.config
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Banco\Banco\bin\Debug\Banco.exe
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Banco\Banco\bin\Debug\Banco.pdb
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Banco\Banco\obj\Debug\Banco.csproj.AssemblyReference.cache
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Banco\Banco\obj\Debug\Banco.Form1.resources
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Banco\Banco\obj\Debug\Banco.Properties.Resources.resources
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Banco\Banco\obj\Debug\Banco.csproj.GenerateResource.cache
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Banco\Banco\obj\Debug\Banco.csproj.CoreCompileInputs.cache
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Banco\Banco\obj\Debug\Banco.exe
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Banco\Banco\obj\Debug\Banco.pdb
