@@ -18,9 +18,9 @@ namespace Banco
             this.Saldo += valorOperacao;
         }
 
-        public void Saca(double valorOperacao)
+        public void Saca(double valor)
         {
-            this.Saldo -= valorOperacao;
+            this.Saldo -= valor;
         }
     }
 }

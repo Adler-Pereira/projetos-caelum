@@ -2,9 +2,9 @@
 {
     public class Cliente
     {
-        public Cliente(string v)
+        public Cliente(string nome)
         {
-            Nome = v;
+            Nome = nome;
         }
 
         public string Nome { get; set; }
