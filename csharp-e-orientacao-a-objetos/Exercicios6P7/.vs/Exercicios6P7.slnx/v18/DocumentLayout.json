@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\exercicios6p7\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|c:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\exercicios6p7\\exercicios6p7\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|solutionrelative:exercicios6p7\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|solutionrelative:exercicios6p7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|c:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\exercicios6p7\\exercicios6p7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\exercicios6p7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5333AF02-ED7F-4A7C-A6FD-C35741459A12}|Exercicios6P7\\Exercicios6P7.csproj|solutionrelative:exercicios6p7\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Exercicios6P7\\Conta.cs",
               "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicios6P7\\Exercicios6P7\\Conta.cs",
               "RelativeToolTip": "Exercicios6P7\\Conta.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T15:22:59.152Z",
               "EditorCaption": ""
