@@ -38,6 +38,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.botaoDepositar = new System.Windows.Forms.Button();
             this.botaoSacar = new System.Windows.Forms.Button();
+            this.btTotalConta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textoTitular
@@ -128,12 +129,23 @@
             this.botaoSacar.UseVisualStyleBackColor = true;
             this.botaoSacar.Click += new System.EventHandler(this.botaoSacar_Click);
             // 
+            // btTotalConta
+            // 
+            this.btTotalConta.Location = new System.Drawing.Point(55, 345);
+            this.btTotalConta.Name = "btTotalConta";
+            this.btTotalConta.Size = new System.Drawing.Size(187, 23);
+            this.btTotalConta.TabIndex = 6;
+            this.btTotalConta.Text = "Totalizar Contas";
+            this.btTotalConta.UseVisualStyleBackColor = true;
+            this.btTotalConta.Click += new System.EventHandler(this.btTotalConta_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btTotalConta);
             this.Controls.Add(this.botaoSacar);
             this.Controls.Add(this.botaoDepositar);
             this.Controls.Add(this.label4);
@@ -164,6 +176,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button botaoDepositar;
         private System.Windows.Forms.Button botaoSacar;
+        private System.Windows.Forms.Button btTotalConta;
     }
 }
 

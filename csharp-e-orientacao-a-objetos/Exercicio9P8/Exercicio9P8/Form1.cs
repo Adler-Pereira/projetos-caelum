@@ -13,6 +13,7 @@ namespace Exercicio9P8
     public partial class Form1 : Form
     {
         private Conta c;
+        private TotalizadorDeContas totalContas = new TotalizadorDeContas();
         public Form1()
         {
             InitializeComponent();
@@ -40,6 +41,11 @@ namespace Exercicio9P8
             double valorDeposito = Convert.ToDouble(textoValor.Text);
             c.Saca(valorDeposito);
             textoSaldo.Text = Convert.ToString(c.Saldo);
+        }
+
+        private void btTotalConta_Click(object sender, EventArgs e)
+        {
+            totalContas.Adiciona(c);
         }
     }
 }
