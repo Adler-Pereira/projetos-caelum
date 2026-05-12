@@ -18,7 +18,7 @@ namespace Exercicios6P7
             Saldo += valor;
         }
 
-        public bool Saca(double valor)
+        public virtual bool Saca(double valor)
         {
             if (Saldo >= valor)
             {

@@ -26,19 +26,19 @@ namespace Exercicio9P8
             textoTitular.Text = c.Titular.Nome;
             textoSaldo.Text = Convert.ToString(c.Saldo);
             textoNumero.Text = Convert.ToString(c.Numero);
-
-
         }
 
         private void botaoDepositar_Click(object sender, EventArgs e)
         {
-            c.Saldo += Convert.ToDouble(textoValor.Text);
+            double valorDeposito = Convert.ToDouble(textoValor.Text);
+            c.Deposita(valorDeposito);
             textoSaldo.Text = Convert.ToString(c.Saldo);
         }
 
         private void botaoSacar_Click(object sender, EventArgs e)
         {
-            c.Saldo -= Convert.ToDouble(textoValor.Text);
+            double valorDeposito = Convert.ToDouble(textoValor.Text);
+            c.Saca(valorDeposito);
             textoSaldo.Text = Convert.ToString(c.Saldo);
         }
     }
