@@ -34,6 +34,11 @@ namespace Exercicio9P8
             this.contas[2] = new ContaCorrente();
             this.contas[2].Titular = new Titular("Osni");
             this.contas[2].Numero = 3;
+
+            foreach (Conta conta in contas)
+            {
+                comboContas.Items.Add(conta.Titular.Nome);
+            }
         }
 
         private void botaoDepositar_Click(object sender, EventArgs e)
@@ -55,9 +60,9 @@ namespace Exercicio9P8
             totalContas.Adiciona(selecionada);
         }
 
-        private void btBusca_Click(object sender, EventArgs e)
+        private void comboContas_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int indice = Convert.ToInt32(textoIndice.Text);
+            int indice = comboContas.SelectedIndex;
             selecionada = this.contas[indice];
 
             textoTitular.Text = selecionada.Titular.Nome;

@@ -41,18 +41,17 @@
             this.btTotalConta = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btBusca = new System.Windows.Forms.Button();
-            this.textoIndice = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.comboContas = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // textoTitular
             // 
-            this.textoTitular.Location = new System.Drawing.Point(112, 173);
+            this.textoTitular.Location = new System.Drawing.Point(123, 173);
             this.textoTitular.Name = "textoTitular";
-            this.textoTitular.Size = new System.Drawing.Size(228, 20);
+            this.textoTitular.Size = new System.Drawing.Size(217, 20);
             this.textoTitular.TabIndex = 0;
             // 
             // label1
@@ -77,16 +76,16 @@
             // 
             // textoSaldo
             // 
-            this.textoSaldo.Location = new System.Drawing.Point(112, 199);
+            this.textoSaldo.Location = new System.Drawing.Point(123, 199);
             this.textoSaldo.Name = "textoSaldo";
-            this.textoSaldo.Size = new System.Drawing.Size(228, 20);
+            this.textoSaldo.Size = new System.Drawing.Size(217, 20);
             this.textoSaldo.TabIndex = 2;
             // 
             // textoNumero
             // 
-            this.textoNumero.Location = new System.Drawing.Point(112, 225);
+            this.textoNumero.Location = new System.Drawing.Point(123, 225);
             this.textoNumero.Name = "textoNumero";
-            this.textoNumero.Size = new System.Drawing.Size(228, 20);
+            this.textoNumero.Size = new System.Drawing.Size(217, 20);
             this.textoNumero.TabIndex = 2;
             // 
             // label3
@@ -101,9 +100,9 @@
             // 
             // textoValor
             // 
-            this.textoValor.Location = new System.Drawing.Point(112, 251);
+            this.textoValor.Location = new System.Drawing.Point(123, 251);
             this.textoValor.Name = "textoValor";
-            this.textoValor.Size = new System.Drawing.Size(228, 20);
+            this.textoValor.Size = new System.Drawing.Size(217, 20);
             this.textoValor.TabIndex = 2;
             // 
             // label4
@@ -164,8 +163,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.btBusca);
-            this.groupBox2.Controls.Add(this.textoIndice);
+            this.groupBox2.Controls.Add(this.comboContas);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.groupBox2.Location = new System.Drawing.Point(15, 26);
@@ -175,24 +173,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Busca de Conta";
             // 
-            // btBusca
-            // 
-            this.btBusca.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btBusca.Location = new System.Drawing.Point(250, 37);
-            this.btBusca.Name = "btBusca";
-            this.btBusca.Size = new System.Drawing.Size(75, 23);
-            this.btBusca.TabIndex = 2;
-            this.btBusca.Text = "Buscar";
-            this.btBusca.UseVisualStyleBackColor = true;
-            this.btBusca.Click += new System.EventHandler(this.btBusca_Click);
-            // 
-            // textoIndice
-            // 
-            this.textoIndice.Location = new System.Drawing.Point(108, 39);
-            this.textoIndice.Name = "textoIndice";
-            this.textoIndice.Size = new System.Drawing.Size(136, 20);
-            this.textoIndice.TabIndex = 1;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -201,6 +181,15 @@
             this.label5.Size = new System.Drawing.Size(84, 13);
             this.label5.TabIndex = 0;
             this.label5.Text = "Escolha a conta";
+            // 
+            // comboContas
+            // 
+            this.comboContas.FormattingEnabled = true;
+            this.comboContas.Location = new System.Drawing.Point(108, 39);
+            this.comboContas.Name = "comboContas";
+            this.comboContas.Size = new System.Drawing.Size(217, 21);
+            this.comboContas.TabIndex = 9;
+            this.comboContas.SelectedIndexChanged += new System.EventHandler(this.comboContas_SelectedIndexChanged);
             // 
             // Form1
             // 
@@ -244,9 +233,8 @@
         private System.Windows.Forms.Button btTotalConta;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button btBusca;
-        private System.Windows.Forms.TextBox textoIndice;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox comboContas;
     }
 }
 
