@@ -41,15 +41,23 @@
             this.btTotalConta = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.comboContas = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.comboDestinoTransferencia = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btTransferencia = new System.Windows.Forms.Button();
+            this.numCompValor = new System.Windows.Forms.NumericUpDown();
+            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numCompValor)).BeginInit();
             this.SuspendLayout();
             // 
             // textoTitular
             // 
-            this.textoTitular.Location = new System.Drawing.Point(123, 173);
+            this.textoTitular.Location = new System.Drawing.Point(124, 354);
             this.textoTitular.Name = "textoTitular";
             this.textoTitular.Size = new System.Drawing.Size(217, 20);
             this.textoTitular.TabIndex = 0;
@@ -58,7 +66,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(33, 176);
+            this.label1.Location = new System.Drawing.Point(34, 357);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(36, 13);
             this.label1.TabIndex = 1;
@@ -68,7 +76,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(33, 202);
+            this.label2.Location = new System.Drawing.Point(34, 383);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 3;
@@ -76,14 +84,14 @@
             // 
             // textoSaldo
             // 
-            this.textoSaldo.Location = new System.Drawing.Point(123, 199);
+            this.textoSaldo.Location = new System.Drawing.Point(124, 380);
             this.textoSaldo.Name = "textoSaldo";
             this.textoSaldo.Size = new System.Drawing.Size(217, 20);
             this.textoSaldo.TabIndex = 2;
             // 
             // textoNumero
             // 
-            this.textoNumero.Location = new System.Drawing.Point(123, 225);
+            this.textoNumero.Location = new System.Drawing.Point(124, 406);
             this.textoNumero.Name = "textoNumero";
             this.textoNumero.Size = new System.Drawing.Size(217, 20);
             this.textoNumero.TabIndex = 2;
@@ -92,7 +100,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(33, 228);
+            this.label3.Location = new System.Drawing.Point(34, 409);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 3;
@@ -100,7 +108,7 @@
             // 
             // textoValor
             // 
-            this.textoValor.Location = new System.Drawing.Point(123, 251);
+            this.textoValor.Location = new System.Drawing.Point(124, 432);
             this.textoValor.Name = "textoValor";
             this.textoValor.Size = new System.Drawing.Size(217, 20);
             this.textoValor.TabIndex = 2;
@@ -109,7 +117,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(33, 254);
+            this.label4.Location = new System.Drawing.Point(34, 435);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 3;
@@ -154,9 +162,9 @@
             this.groupBox1.Controls.Add(this.botaoDepositar);
             this.groupBox1.Controls.Add(this.botaoSacar);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox1.Location = new System.Drawing.Point(14, 128);
+            this.groupBox1.Location = new System.Drawing.Point(15, 309);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(353, 215);
+            this.groupBox1.Size = new System.Drawing.Size(352, 215);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Conta";
@@ -173,15 +181,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Busca de Conta";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(18, 42);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Escolha a conta";
-            // 
             // comboContas
             // 
             this.comboContas.FormattingEnabled = true;
@@ -191,12 +190,83 @@
             this.comboContas.TabIndex = 9;
             this.comboContas.SelectedIndexChanged += new System.EventHandler(this.comboContas_SelectedIndexChanged);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(18, 42);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(84, 13);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Escolha a conta";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Controls.Add(this.numCompValor);
+            this.groupBox3.Controls.Add(this.btTransferencia);
+            this.groupBox3.Controls.Add(this.comboDestinoTransferencia);
+            this.groupBox3.Controls.Add(this.label6);
+            this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.groupBox3.Location = new System.Drawing.Point(15, 128);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(352, 162);
+            this.groupBox3.TabIndex = 8;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Transferência";
+            // 
+            // comboDestinoTransferencia
+            // 
+            this.comboDestinoTransferencia.FormattingEnabled = true;
+            this.comboDestinoTransferencia.Location = new System.Drawing.Point(108, 39);
+            this.comboDestinoTransferencia.Name = "comboDestinoTransferencia";
+            this.comboDestinoTransferencia.Size = new System.Drawing.Size(217, 21);
+            this.comboDestinoTransferencia.TabIndex = 9;
+            this.comboDestinoTransferencia.SelectedIndexChanged += new System.EventHandler(this.comboContas_SelectedIndexChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(18, 42);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(84, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Escolha a conta";
+            // 
+            // btTransferencia
+            // 
+            this.btTransferencia.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btTransferencia.Location = new System.Drawing.Point(140, 108);
+            this.btTransferencia.Name = "btTransferencia";
+            this.btTransferencia.Size = new System.Drawing.Size(75, 23);
+            this.btTransferencia.TabIndex = 10;
+            this.btTransferencia.Text = "Transferir";
+            this.btTransferencia.UseVisualStyleBackColor = true;
+            this.btTransferencia.Click += new System.EventHandler(this.btTransferencia_Click);
+            // 
+            // numCompValor
+            // 
+            this.numCompValor.Location = new System.Drawing.Point(108, 66);
+            this.numCompValor.Name = "numCompValor";
+            this.numCompValor.Size = new System.Drawing.Size(120, 20);
+            this.numCompValor.TabIndex = 11;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label7.Location = new System.Drawing.Point(71, 68);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(31, 13);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Valor";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(382, 366);
+            this.ClientSize = new System.Drawing.Size(382, 548);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -213,6 +283,9 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numCompValor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -235,6 +308,12 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboContas;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button btTransferencia;
+        private System.Windows.Forms.ComboBox comboDestinoTransferencia;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.NumericUpDown numCompValor;
     }
 }
 

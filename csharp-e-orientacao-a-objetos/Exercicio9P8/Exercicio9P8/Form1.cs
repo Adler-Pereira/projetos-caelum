@@ -38,6 +38,7 @@ namespace Exercicio9P8
             foreach (Conta conta in contas)
             {
                 comboContas.Items.Add(conta.Titular.Nome);
+                comboDestinoTransferencia.Items.Add(conta.Titular.Nome);
             }
         }
 
@@ -68,6 +69,18 @@ namespace Exercicio9P8
             textoTitular.Text = selecionada.Titular.Nome;
             textoSaldo.Text = Convert.ToString(selecionada.Saldo);
             textoNumero.Text = Convert.ToString(selecionada.Numero);
+        }
+
+        private void btTransferencia_Click(object sender, EventArgs e)
+        {
+            int indiceDestino = comboDestinoTransferencia.SelectedIndex;
+            double valorTrans = Convert.ToDouble(numCompValor.Value);
+            Conta destino = contas[indiceDestino];
+
+            selecionada.Saca(valorTrans);
+            destino.Deposita(valorTrans);
+
+            textoSaldo.Text = Convert.ToString(selecionada.Saldo);
         }
     }
 }
