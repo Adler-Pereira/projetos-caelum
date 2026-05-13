@@ -31,13 +31,10 @@ namespace Exercicio9P8
             Conta novaConta = null;
             int cmbTipoIndice = comboTipo.SelectedIndex;
 
-            if (cmbTipoIndice == -1)
+            if (cmbTipoIndice > -1)
             {
-                MessageBox.Show("Erro: selecione um tipo no campo Tipo.");
-            }
-            else
-            {
-                switch (cmbTipoIndice){
+                switch (cmbTipoIndice)
+                {
                     case 0:
                         novaConta = new Conta();
                         break;
@@ -48,15 +45,23 @@ namespace Exercicio9P8
                         novaConta = new ContaCorrente();
                         break;
                     default:
-                        MessageBox.Show("Erro: tipo não identificado.");
+                        MessageBox.Show("Erro: tipo selecionado não encontrado.");
                         break;
                 }
+                if (novaConta != null)
+                {
+                    novaConta.Titular = new Titular(textoTitular.Text);
+                    novaConta.Numero = Convert.ToInt32(textoNumero.Text);
 
-                novaConta.Titular = new Titular(textoTitular.Text);
-                novaConta.Numero = Convert.ToInt32(textoNumero.Text);
-
-                this.formPrincipal.AdicionaConta(novaConta);
+                    this.formPrincipal.AdicionaConta(novaConta);
+                }
+                else
+                    MessageBox.Show("Erro: não foi possível criar a conta.");
             }
+            else
+                MessageBox.Show("Erro: selecione um tipo no campo Tipo.");
+
+            this.Close();
         }
     }
 }

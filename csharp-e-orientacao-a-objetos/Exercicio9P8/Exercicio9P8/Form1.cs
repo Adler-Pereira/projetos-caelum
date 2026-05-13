@@ -17,6 +17,7 @@ namespace Exercicio9P8
         private Conta selecionada;
         private int numeroDeContas = 0;
         private TotalizadorDeContas totalContas = new TotalizadorDeContas();
+
         public Form1()
         {
             InitializeComponent();

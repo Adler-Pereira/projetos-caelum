@@ -58,7 +58,8 @@
             // 
             // textoTitular
             // 
-            this.textoTitular.Location = new System.Drawing.Point(124, 354);
+            this.textoTitular.Enabled = false;
+            this.textoTitular.Location = new System.Drawing.Point(152, 72);
             this.textoTitular.Name = "textoTitular";
             this.textoTitular.ReadOnly = true;
             this.textoTitular.Size = new System.Drawing.Size(217, 20);
@@ -68,7 +69,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(34, 357);
+            this.label1.Location = new System.Drawing.Point(62, 75);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(36, 13);
             this.label1.TabIndex = 1;
@@ -78,7 +79,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(34, 383);
+            this.label2.Location = new System.Drawing.Point(19, 81);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 13);
             this.label2.TabIndex = 3;
@@ -86,7 +87,8 @@
             // 
             // textoSaldo
             // 
-            this.textoSaldo.Location = new System.Drawing.Point(124, 380);
+            this.textoSaldo.Enabled = false;
+            this.textoSaldo.Location = new System.Drawing.Point(109, 78);
             this.textoSaldo.Name = "textoSaldo";
             this.textoSaldo.ReadOnly = true;
             this.textoSaldo.Size = new System.Drawing.Size(217, 20);
@@ -94,7 +96,8 @@
             // 
             // textoNumero
             // 
-            this.textoNumero.Location = new System.Drawing.Point(124, 406);
+            this.textoNumero.Enabled = false;
+            this.textoNumero.Location = new System.Drawing.Point(109, 111);
             this.textoNumero.Name = "textoNumero";
             this.textoNumero.ReadOnly = true;
             this.textoNumero.Size = new System.Drawing.Size(217, 20);
@@ -104,7 +107,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(34, 409);
+            this.label3.Location = new System.Drawing.Point(19, 114);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 13);
             this.label3.TabIndex = 3;
@@ -112,7 +115,7 @@
             // 
             // textoValor
             // 
-            this.textoValor.Location = new System.Drawing.Point(124, 432);
+            this.textoValor.Location = new System.Drawing.Point(109, 144);
             this.textoValor.Name = "textoValor";
             this.textoValor.Size = new System.Drawing.Size(217, 20);
             this.textoValor.TabIndex = 2;
@@ -121,7 +124,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(34, 435);
+            this.label4.Location = new System.Drawing.Point(19, 147);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 3;
@@ -130,7 +133,7 @@
             // botaoDepositar
             // 
             this.botaoDepositar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.botaoDepositar.Location = new System.Drawing.Point(170, 164);
+            this.botaoDepositar.Location = new System.Drawing.Point(109, 210);
             this.botaoDepositar.Name = "botaoDepositar";
             this.botaoDepositar.Size = new System.Drawing.Size(75, 23);
             this.botaoDepositar.TabIndex = 4;
@@ -141,7 +144,7 @@
             // botaoSacar
             // 
             this.botaoSacar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.botaoSacar.Location = new System.Drawing.Point(251, 164);
+            this.botaoSacar.Location = new System.Drawing.Point(251, 210);
             this.botaoSacar.Name = "botaoSacar";
             this.botaoSacar.Size = new System.Drawing.Size(75, 23);
             this.botaoSacar.TabIndex = 5;
@@ -152,7 +155,7 @@
             // btTotalConta
             // 
             this.btTotalConta.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btTotalConta.Location = new System.Drawing.Point(22, 164);
+            this.btTotalConta.Location = new System.Drawing.Point(152, 323);
             this.btTotalConta.Name = "btTotalConta";
             this.btTotalConta.Size = new System.Drawing.Size(103, 23);
             this.btTotalConta.TabIndex = 6;
@@ -162,13 +165,18 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btTotalConta);
             this.groupBox1.Controls.Add(this.botaoDepositar);
             this.groupBox1.Controls.Add(this.botaoSacar);
+            this.groupBox1.Controls.Add(this.textoValor);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.textoSaldo);
+            this.groupBox1.Controls.Add(this.textoNumero);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox1.Location = new System.Drawing.Point(15, 309);
+            this.groupBox1.Location = new System.Drawing.Point(43, 27);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(352, 215);
+            this.groupBox1.Size = new System.Drawing.Size(352, 264);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Conta";
@@ -178,7 +186,7 @@
             this.groupBox2.Controls.Add(this.comboContas);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox2.Location = new System.Drawing.Point(15, 26);
+            this.groupBox2.Location = new System.Drawing.Point(434, 27);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(352, 85);
             this.groupBox2.TabIndex = 8;
@@ -211,7 +219,7 @@
             this.groupBox3.Controls.Add(this.comboDestinoTransferencia);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox3.Location = new System.Drawing.Point(15, 128);
+            this.groupBox3.Location = new System.Drawing.Point(434, 129);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(352, 162);
             this.groupBox3.TabIndex = 8;
@@ -230,7 +238,13 @@
             // 
             // numCompValor
             // 
+            this.numCompValor.DecimalPlaces = 2;
             this.numCompValor.Location = new System.Drawing.Point(108, 66);
+            this.numCompValor.Maximum = new decimal(new int[] {
+            -727379968,
+            232,
+            0,
+            0});
             this.numCompValor.Name = "numCompValor";
             this.numCompValor.Size = new System.Drawing.Size(120, 20);
             this.numCompValor.TabIndex = 11;
@@ -253,7 +267,6 @@
             this.comboDestinoTransferencia.Name = "comboDestinoTransferencia";
             this.comboDestinoTransferencia.Size = new System.Drawing.Size(217, 21);
             this.comboDestinoTransferencia.TabIndex = 9;
-            this.comboDestinoTransferencia.SelectedIndexChanged += new System.EventHandler(this.comboContas_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -266,7 +279,8 @@
             // 
             // btNovaConta
             // 
-            this.btNovaConta.Location = new System.Drawing.Point(15, 530);
+            this.btNovaConta.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btNovaConta.Location = new System.Drawing.Point(43, 323);
             this.btNovaConta.Name = "btNovaConta";
             this.btNovaConta.Size = new System.Drawing.Size(75, 23);
             this.btNovaConta.TabIndex = 9;
@@ -279,16 +293,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(382, 580);
+            this.ClientSize = new System.Drawing.Size(827, 384);
             this.Controls.Add(this.btNovaConta);
             this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.btTotalConta);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textoValor);
-            this.Controls.Add(this.textoNumero);
-            this.Controls.Add(this.textoSaldo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textoTitular);
             this.Controls.Add(this.groupBox1);
@@ -296,6 +305,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
