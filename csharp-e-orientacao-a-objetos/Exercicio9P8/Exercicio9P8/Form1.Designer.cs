@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textoTitular = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textoSaldo = new System.Windows.Forms.TextBox();
             this.textoNumero = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textoValor = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.botaoDepositar = new System.Windows.Forms.Button();
             this.botaoSacar = new System.Windows.Forms.Button();
@@ -50,166 +50,115 @@
             this.comboDestinoTransferencia = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btNovaConta = new System.Windows.Forms.Button();
+            this.textoValor = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numCompValor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textoValor)).BeginInit();
             this.SuspendLayout();
             // 
             // textoTitular
             // 
-            this.textoTitular.Enabled = false;
-            this.textoTitular.Location = new System.Drawing.Point(152, 72);
+            resources.ApplyResources(this.textoTitular, "textoTitular");
             this.textoTitular.Name = "textoTitular";
             this.textoTitular.ReadOnly = true;
-            this.textoTitular.Size = new System.Drawing.Size(217, 20);
-            this.textoTitular.TabIndex = 0;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
+            resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(62, 75);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Titular";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
+            resources.ApplyResources(this.label2, "label2");
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(19, 81);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Saldo";
             // 
             // textoSaldo
             // 
-            this.textoSaldo.Enabled = false;
-            this.textoSaldo.Location = new System.Drawing.Point(109, 78);
+            resources.ApplyResources(this.textoSaldo, "textoSaldo");
             this.textoSaldo.Name = "textoSaldo";
             this.textoSaldo.ReadOnly = true;
-            this.textoSaldo.Size = new System.Drawing.Size(217, 20);
-            this.textoSaldo.TabIndex = 2;
             // 
             // textoNumero
             // 
-            this.textoNumero.Enabled = false;
-            this.textoNumero.Location = new System.Drawing.Point(109, 111);
+            resources.ApplyResources(this.textoNumero, "textoNumero");
             this.textoNumero.Name = "textoNumero";
             this.textoNumero.ReadOnly = true;
-            this.textoNumero.Size = new System.Drawing.Size(217, 20);
-            this.textoNumero.TabIndex = 2;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
+            resources.ApplyResources(this.label3, "label3");
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(19, 114);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Numero";
-            // 
-            // textoValor
-            // 
-            this.textoValor.Location = new System.Drawing.Point(109, 144);
-            this.textoValor.Name = "textoValor";
-            this.textoValor.Size = new System.Drawing.Size(217, 20);
-            this.textoValor.TabIndex = 2;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
+            resources.ApplyResources(this.label4, "label4");
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(19, 147);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(31, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Valor";
             // 
             // botaoDepositar
             // 
             this.botaoDepositar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.botaoDepositar.Location = new System.Drawing.Point(109, 210);
+            resources.ApplyResources(this.botaoDepositar, "botaoDepositar");
             this.botaoDepositar.Name = "botaoDepositar";
-            this.botaoDepositar.Size = new System.Drawing.Size(75, 23);
-            this.botaoDepositar.TabIndex = 4;
-            this.botaoDepositar.Text = "Depositar";
             this.botaoDepositar.UseVisualStyleBackColor = true;
             this.botaoDepositar.Click += new System.EventHandler(this.botaoDepositar_Click);
             // 
             // botaoSacar
             // 
             this.botaoSacar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.botaoSacar.Location = new System.Drawing.Point(251, 210);
+            resources.ApplyResources(this.botaoSacar, "botaoSacar");
             this.botaoSacar.Name = "botaoSacar";
-            this.botaoSacar.Size = new System.Drawing.Size(75, 23);
-            this.botaoSacar.TabIndex = 5;
-            this.botaoSacar.Text = "Sacar";
             this.botaoSacar.UseVisualStyleBackColor = true;
             this.botaoSacar.Click += new System.EventHandler(this.botaoSacar_Click);
             // 
             // btTotalConta
             // 
             this.btTotalConta.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btTotalConta.Location = new System.Drawing.Point(152, 323);
+            resources.ApplyResources(this.btTotalConta, "btTotalConta");
             this.btTotalConta.Name = "btTotalConta";
-            this.btTotalConta.Size = new System.Drawing.Size(103, 23);
-            this.btTotalConta.TabIndex = 6;
-            this.btTotalConta.Text = "Totalizar Contas";
             this.btTotalConta.UseVisualStyleBackColor = true;
             this.btTotalConta.Click += new System.EventHandler(this.btTotalConta_Click);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textoValor);
             this.groupBox1.Controls.Add(this.botaoDepositar);
             this.groupBox1.Controls.Add(this.botaoSacar);
-            this.groupBox1.Controls.Add(this.textoValor);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.textoSaldo);
             this.groupBox1.Controls.Add(this.textoNumero);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox1.Location = new System.Drawing.Point(43, 27);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(352, 264);
-            this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Conta";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.comboContas);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox2.Location = new System.Drawing.Point(434, 27);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(352, 85);
-            this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Busca de Conta";
             // 
             // comboContas
             // 
             this.comboContas.FormattingEnabled = true;
-            this.comboContas.Location = new System.Drawing.Point(108, 39);
+            resources.ApplyResources(this.comboContas, "comboContas");
             this.comboContas.Name = "comboContas";
-            this.comboContas.Size = new System.Drawing.Size(217, 21);
-            this.comboContas.TabIndex = 9;
             this.comboContas.SelectedIndexChanged += new System.EventHandler(this.comboContas_SelectedIndexChanged);
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(18, 42);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Escolha a conta";
             // 
             // groupBox3
             // 
@@ -219,81 +168,70 @@
             this.groupBox3.Controls.Add(this.comboDestinoTransferencia);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox3.Location = new System.Drawing.Point(434, 129);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(352, 162);
-            this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Transferência";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
+            resources.ApplyResources(this.label7, "label7");
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(71, 68);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(31, 13);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "Valor";
             // 
             // numCompValor
             // 
             this.numCompValor.DecimalPlaces = 2;
-            this.numCompValor.Location = new System.Drawing.Point(108, 66);
+            resources.ApplyResources(this.numCompValor, "numCompValor");
             this.numCompValor.Maximum = new decimal(new int[] {
             -727379968,
             232,
             0,
             0});
             this.numCompValor.Name = "numCompValor";
-            this.numCompValor.Size = new System.Drawing.Size(120, 20);
-            this.numCompValor.TabIndex = 11;
             // 
             // btTransferencia
             // 
             this.btTransferencia.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btTransferencia.Location = new System.Drawing.Point(140, 108);
+            resources.ApplyResources(this.btTransferencia, "btTransferencia");
             this.btTransferencia.Name = "btTransferencia";
-            this.btTransferencia.Size = new System.Drawing.Size(75, 23);
-            this.btTransferencia.TabIndex = 10;
-            this.btTransferencia.Text = "Transferir";
             this.btTransferencia.UseVisualStyleBackColor = true;
             this.btTransferencia.Click += new System.EventHandler(this.btTransferencia_Click);
             // 
             // comboDestinoTransferencia
             // 
             this.comboDestinoTransferencia.FormattingEnabled = true;
-            this.comboDestinoTransferencia.Location = new System.Drawing.Point(108, 39);
+            resources.ApplyResources(this.comboDestinoTransferencia, "comboDestinoTransferencia");
             this.comboDestinoTransferencia.Name = "comboDestinoTransferencia";
-            this.comboDestinoTransferencia.Size = new System.Drawing.Size(217, 21);
-            this.comboDestinoTransferencia.TabIndex = 9;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(18, 42);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Escolha a conta";
             // 
             // btNovaConta
             // 
             this.btNovaConta.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btNovaConta.Location = new System.Drawing.Point(43, 323);
+            resources.ApplyResources(this.btNovaConta, "btNovaConta");
             this.btNovaConta.Name = "btNovaConta";
-            this.btNovaConta.Size = new System.Drawing.Size(75, 23);
-            this.btNovaConta.TabIndex = 9;
-            this.btNovaConta.Text = "Nova Conta";
             this.btNovaConta.UseVisualStyleBackColor = true;
             this.btNovaConta.Click += new System.EventHandler(this.btNovaConta_Click);
             // 
+            // textoValor
+            // 
+            this.textoValor.DecimalPlaces = 2;
+            resources.ApplyResources(this.textoValor, "textoValor");
+            this.textoValor.Maximum = new decimal(new int[] {
+            -727379968,
+            232,
+            0,
+            0});
+            this.textoValor.Name = "textoValor";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(827, 384);
             this.Controls.Add(this.btNovaConta);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btTotalConta);
@@ -302,7 +240,6 @@
             this.Controls.Add(this.textoTitular);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -311,6 +248,7 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numCompValor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textoValor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -324,7 +262,6 @@
         private System.Windows.Forms.TextBox textoSaldo;
         private System.Windows.Forms.TextBox textoNumero;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textoValor;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button botaoDepositar;
         private System.Windows.Forms.Button botaoSacar;
@@ -340,6 +277,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown numCompValor;
         private System.Windows.Forms.Button btNovaConta;
+        private System.Windows.Forms.NumericUpDown textoValor;
     }
 }
 

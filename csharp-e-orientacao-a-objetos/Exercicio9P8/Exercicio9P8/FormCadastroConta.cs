@@ -54,13 +54,20 @@ namespace Exercicio9P8
                     novaConta.Numero = Convert.ToInt32(textoNumero.Text);
 
                     this.formPrincipal.AdicionaConta(novaConta);
+
+                    MessageBox.Show("Conta criada com sucesso!");
+
+                    this.Close();
                 }
                 else
                     MessageBox.Show("Erro: não foi possível criar a conta.");
             }
             else
                 MessageBox.Show("Erro: selecione um tipo no campo Tipo.");
+        }
 
+        private void btCancelarCadastro_Click(object sender, EventArgs e)
+        {
             this.Close();
         }
     }

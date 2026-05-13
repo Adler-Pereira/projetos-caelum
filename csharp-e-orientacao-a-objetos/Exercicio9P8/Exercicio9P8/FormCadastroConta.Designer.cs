@@ -35,6 +35,7 @@
             this.btCadastrar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.comboTipo = new System.Windows.Forms.ComboBox();
+            this.btCancelarCadastro = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -73,7 +74,7 @@
             // 
             // btCadastrar
             // 
-            this.btCadastrar.Location = new System.Drawing.Point(118, 133);
+            this.btCadastrar.Location = new System.Drawing.Point(164, 135);
             this.btCadastrar.Name = "btCadastrar";
             this.btCadastrar.Size = new System.Drawing.Size(75, 23);
             this.btCadastrar.TabIndex = 4;
@@ -99,12 +100,23 @@
             this.comboTipo.Size = new System.Drawing.Size(121, 21);
             this.comboTipo.TabIndex = 5;
             // 
+            // btCancelarCadastro
+            // 
+            this.btCancelarCadastro.Location = new System.Drawing.Point(37, 135);
+            this.btCancelarCadastro.Name = "btCancelarCadastro";
+            this.btCancelarCadastro.Size = new System.Drawing.Size(75, 23);
+            this.btCancelarCadastro.TabIndex = 6;
+            this.btCancelarCadastro.Text = "Cancelar";
+            this.btCancelarCadastro.UseVisualStyleBackColor = true;
+            this.btCancelarCadastro.Click += new System.EventHandler(this.btCancelarCadastro_Click);
+            // 
             // FormCadastroConta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(273, 197);
+            this.Controls.Add(this.btCancelarCadastro);
             this.Controls.Add(this.comboTipo);
             this.Controls.Add(this.btCadastrar);
             this.Controls.Add(this.textoTitular);
@@ -113,6 +125,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "FormCadastroConta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCadastroConta";
             this.Load += new System.EventHandler(this.FormCadastroConta_Load);
             this.ResumeLayout(false);
@@ -129,5 +142,6 @@
         private System.Windows.Forms.Button btCadastrar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboTipo;
+        private System.Windows.Forms.Button btCancelarCadastro;
     }
 }
