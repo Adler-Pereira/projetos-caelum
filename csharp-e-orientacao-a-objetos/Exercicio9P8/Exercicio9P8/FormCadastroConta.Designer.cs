@@ -33,6 +33,8 @@
             this.textoNumero = new System.Windows.Forms.TextBox();
             this.textoTitular = new System.Windows.Forms.TextBox();
             this.btCadastrar = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.comboTipo = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -57,21 +59,21 @@
             // 
             // textoNumero
             // 
-            this.textoNumero.Location = new System.Drawing.Point(133, 40);
+            this.textoNumero.Location = new System.Drawing.Point(118, 40);
             this.textoNumero.Name = "textoNumero";
-            this.textoNumero.Size = new System.Drawing.Size(100, 20);
+            this.textoNumero.Size = new System.Drawing.Size(121, 20);
             this.textoNumero.TabIndex = 2;
             // 
             // textoTitular
             // 
-            this.textoTitular.Location = new System.Drawing.Point(133, 66);
+            this.textoTitular.Location = new System.Drawing.Point(118, 66);
             this.textoTitular.Name = "textoTitular";
-            this.textoTitular.Size = new System.Drawing.Size(100, 20);
+            this.textoTitular.Size = new System.Drawing.Size(121, 20);
             this.textoTitular.TabIndex = 3;
             // 
             // btCadastrar
             // 
-            this.btCadastrar.Location = new System.Drawing.Point(133, 113);
+            this.btCadastrar.Location = new System.Drawing.Point(118, 133);
             this.btCadastrar.Name = "btCadastrar";
             this.btCadastrar.Size = new System.Drawing.Size(75, 23);
             this.btCadastrar.TabIndex = 4;
@@ -79,14 +81,34 @@
             this.btCadastrar.UseVisualStyleBackColor = true;
             this.btCadastrar.Click += new System.EventHandler(this.btCadastrar_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(34, 95);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(28, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Tipo";
+            // 
+            // comboTipo
+            // 
+            this.comboTipo.FormattingEnabled = true;
+            this.comboTipo.Location = new System.Drawing.Point(118, 92);
+            this.comboTipo.Name = "comboTipo";
+            this.comboTipo.Size = new System.Drawing.Size(121, 21);
+            this.comboTipo.TabIndex = 5;
+            // 
             // FormCadastroConta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(273, 177);
+            this.ClientSize = new System.Drawing.Size(273, 197);
+            this.Controls.Add(this.comboTipo);
             this.Controls.Add(this.btCadastrar);
             this.Controls.Add(this.textoTitular);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.textoNumero);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -105,5 +127,7 @@
         private System.Windows.Forms.TextBox textoNumero;
         private System.Windows.Forms.TextBox textoTitular;
         private System.Windows.Forms.Button btCadastrar;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboTipo;
     }
 }

@@ -21,16 +21,42 @@ namespace Exercicio9P8
 
         private void FormCadastroConta_Load(object sender, EventArgs e)
         {
-
+            comboTipo.Items.Add("Conta");
+            comboTipo.Items.Add("Poupança");
+            comboTipo.Items.Add("Corrente");
         }
 
         private void btCadastrar_Click(object sender, EventArgs e)
         {
-            Conta novaConta = new ContaCorrente();
-            novaConta.Titular = new Titular(textoTitular.Text);
-            novaConta.Numero = Convert.ToInt32(textoNumero.Text);
+            Conta novaConta = null;
+            int cmbTipoIndice = comboTipo.SelectedIndex;
 
-            this.formPrincipal.AdicionaConta(novaConta);
+            if (cmbTipoIndice == -1)
+            {
+                MessageBox.Show("Erro: selecione um tipo no campo Tipo.");
+            }
+            else
+            {
+                switch (cmbTipoIndice){
+                    case 0:
+                        novaConta = new Conta();
+                        break;
+                    case 1:
+                        novaConta = new ContaPoupanca();
+                        break;
+                    case 2:
+                        novaConta = new ContaCorrente();
+                        break;
+                    default:
+                        MessageBox.Show("Erro: tipo não identificado.");
+                        break;
+                }
+
+                novaConta.Titular = new Titular(textoTitular.Text);
+                novaConta.Numero = Convert.ToInt32(textoNumero.Text);
+
+                this.formPrincipal.AdicionaConta(novaConta);
+            }
         }
     }
 }
