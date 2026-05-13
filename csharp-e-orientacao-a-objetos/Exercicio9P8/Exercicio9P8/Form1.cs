@@ -12,7 +12,8 @@ namespace Exercicio9P8
 {
     public partial class Form1 : Form
     {
-        private Conta[] contas;
+        private Conta[] contas = new Conta[1];
+        private Conta[] contasAux;
         private Conta selecionada;
         private int numeroDeContas = 0;
         private TotalizadorDeContas totalContas = new TotalizadorDeContas();
@@ -23,7 +24,6 @@ namespace Exercicio9P8
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            contas = new Conta[10];
             Conta c1 = new Conta();
             c1.Titular = new Titular("Victor");
             c1.Numero = 1;
@@ -83,6 +83,12 @@ namespace Exercicio9P8
 
         public void AdicionaConta(Conta conta)
         {
+            contasAux = new Conta[contas.Length];
+            contasAux = contas;
+            contas = new Conta[contasAux.Length+1];
+
+            for (int i = 0; i < contasAux.Length; i++) contas[i] = contasAux[i];
+
             this.contas[this.numeroDeContas] = conta;
             this.numeroDeContas++;
             comboContas.Items.Add(conta.Titular.Nome);
