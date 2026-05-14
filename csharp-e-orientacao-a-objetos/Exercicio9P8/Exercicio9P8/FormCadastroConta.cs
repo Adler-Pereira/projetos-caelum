@@ -21,7 +21,6 @@ namespace Exercicio9P8
 
         private void FormCadastroConta_Load(object sender, EventArgs e)
         {
-            comboTipo.Items.Add("Conta");
             comboTipo.Items.Add("Poupança");
             comboTipo.Items.Add("Corrente");
         }
@@ -36,12 +35,9 @@ namespace Exercicio9P8
                 switch (cmbTipoIndice)
                 {
                     case 0:
-                        novaConta = new Conta();
-                        break;
-                    case 1:
                         novaConta = new ContaPoupanca();
                         break;
-                    case 2:
+                    case 1:
                         novaConta = new ContaCorrente();
                         break;
                     default:

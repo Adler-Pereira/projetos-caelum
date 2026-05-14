@@ -25,7 +25,7 @@ namespace Exercicio9P8
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Conta c1 = new Conta();
+            Conta c1 = new ContaCorrente();
             c1.Titular = new Titular("Victor");
             c1.Numero = 1;
             AdicionaConta(c1);
