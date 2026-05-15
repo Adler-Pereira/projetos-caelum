@@ -40,6 +40,7 @@
             this.botaoSacar = new System.Windows.Forms.Button();
             this.btTotalConta = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textoValor = new System.Windows.Forms.NumericUpDown();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.comboContas = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -50,12 +51,12 @@
             this.comboDestinoTransferencia = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btNovaConta = new System.Windows.Forms.Button();
-            this.textoValor = new System.Windows.Forms.NumericUpDown();
+            this.botaoImpostos = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textoValor)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numCompValor)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textoValor)).BeginInit();
             this.SuspendLayout();
             // 
             // textoTitular
@@ -139,6 +140,17 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
+            // textoValor
+            // 
+            this.textoValor.DecimalPlaces = 2;
+            resources.ApplyResources(this.textoValor, "textoValor");
+            this.textoValor.Maximum = new decimal(new int[] {
+            -727379968,
+            232,
+            0,
+            0});
+            this.textoValor.Name = "textoValor";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.comboContas);
@@ -216,22 +228,19 @@
             this.btNovaConta.UseVisualStyleBackColor = true;
             this.btNovaConta.Click += new System.EventHandler(this.btNovaConta_Click);
             // 
-            // textoValor
+            // botaoImpostos
             // 
-            this.textoValor.DecimalPlaces = 2;
-            resources.ApplyResources(this.textoValor, "textoValor");
-            this.textoValor.Maximum = new decimal(new int[] {
-            -727379968,
-            232,
-            0,
-            0});
-            this.textoValor.Name = "textoValor";
+            resources.ApplyResources(this.botaoImpostos, "botaoImpostos");
+            this.botaoImpostos.Name = "botaoImpostos";
+            this.botaoImpostos.UseVisualStyleBackColor = true;
+            this.botaoImpostos.Click += new System.EventHandler(this.botaoImpostos_Click);
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Controls.Add(this.botaoImpostos);
             this.Controls.Add(this.btNovaConta);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btTotalConta);
@@ -243,12 +252,12 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textoValor)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numCompValor)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.textoValor)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -278,6 +287,7 @@
         private System.Windows.Forms.NumericUpDown numCompValor;
         private System.Windows.Forms.Button btNovaConta;
         private System.Windows.Forms.NumericUpDown textoValor;
+        private System.Windows.Forms.Button botaoImpostos;
     }
 }
 

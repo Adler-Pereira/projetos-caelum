@@ -28,6 +28,7 @@ namespace Exercicio9P8
             Conta c1 = new ContaCorrente();
             c1.Titular = new Titular("Victor");
             c1.Numero = 1;
+            c1.Deposita(200.0);
             AdicionaConta(c1);
 
             Conta c2 = new ContaPoupanca();
@@ -38,6 +39,7 @@ namespace Exercicio9P8
             Conta c3 = new ContaCorrente();
             c3.Titular = new Titular("Osni");
             c3.Numero = 3;
+            c3.Deposita(100.0);
             AdicionaConta(c3);
         }
 
@@ -100,6 +102,30 @@ namespace Exercicio9P8
         {
             FormCadastroConta formDeCadastro = new FormCadastroConta(this);
             formDeCadastro.ShowDialog();
+        }
+
+        private void botaoImpostos_Click(object sender, EventArgs e)
+        {
+            foreach (Conta conta in contas)
+            {
+                if (conta is ContaCorrente)
+                {
+                    ContaCorrente contaCorrente = (ContaCorrente)conta;
+                    double imposto = contaCorrente.CalculaTributos();
+                    MessageBox.Show("Imposto da conta " + conta.Numero + ": " + imposto);
+
+
+                    //PERGUNTAR AO FABIO SOBRE OS "AS" ABAIXO
+                    //
+                    //ContaCorrente contaCorrente = conta as ContaCorrente;
+                    //double imposto = contaCorrente.CalculaTributos();
+                    //MessageBox.Show("Imposto da conta " + conta.Numero + ": " + imposto);
+                    //
+                    //ITributavel iTributavel = conta as ITributavel;
+                    //double imposto = iTributavel.CalculaTributos();
+                    //MessageBox.Show("Imposto da conta " + conta.Numero + ": " + imposto);
+                }
+            }
         }
     }
 }
