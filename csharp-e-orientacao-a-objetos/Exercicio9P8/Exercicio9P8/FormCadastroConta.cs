@@ -21,6 +21,7 @@ namespace Exercicio9P8
 
         private void FormCadastroConta_Load(object sender, EventArgs e)
         {
+            textoNumero.Text = Convert.ToString(Conta.ProximoNumero());
             comboTipo.Items.Add("Poupança");
             comboTipo.Items.Add("Corrente");
         }
@@ -47,7 +48,6 @@ namespace Exercicio9P8
                 if (novaConta != null)
                 {
                     novaConta.Titular = new Titular(textoTitular.Text);
-                    novaConta.Numero = Convert.ToInt32(textoNumero.Text);
 
                     this.formPrincipal.AdicionaConta(novaConta);
 

@@ -28,25 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textoNumero = new System.Windows.Forms.TextBox();
             this.textoTitular = new System.Windows.Forms.TextBox();
             this.btCadastrar = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.comboTipo = new System.Windows.Forms.ComboBox();
             this.btCancelarCadastro = new System.Windows.Forms.Button();
+            this.textoNumero = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(34, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Numero";
             // 
             // label2
             // 
@@ -57,13 +47,6 @@
             this.label2.Size = new System.Drawing.Size(36, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Titular";
-            // 
-            // textoNumero
-            // 
-            this.textoNumero.Location = new System.Drawing.Point(118, 40);
-            this.textoNumero.Name = "textoNumero";
-            this.textoNumero.Size = new System.Drawing.Size(121, 20);
-            this.textoNumero.TabIndex = 2;
             // 
             // textoTitular
             // 
@@ -110,6 +93,25 @@
             this.btCancelarCadastro.UseVisualStyleBackColor = true;
             this.btCancelarCadastro.Click += new System.EventHandler(this.btCancelarCadastro_Click);
             // 
+            // textoNumero
+            // 
+            this.textoNumero.Enabled = false;
+            this.textoNumero.Location = new System.Drawing.Point(118, 40);
+            this.textoNumero.Name = "textoNumero";
+            this.textoNumero.ReadOnly = true;
+            this.textoNumero.Size = new System.Drawing.Size(121, 20);
+            this.textoNumero.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(34, 43);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Numero";
+            // 
             // FormCadastroConta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -134,14 +136,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textoNumero;
         private System.Windows.Forms.TextBox textoTitular;
         private System.Windows.Forms.Button btCadastrar;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox comboTipo;
         private System.Windows.Forms.Button btCancelarCadastro;
+        private System.Windows.Forms.TextBox textoNumero;
+        private System.Windows.Forms.Label label1;
     }
 }
