@@ -59,9 +59,16 @@ namespace Exercicio9P8
 
         private void botaoSacar_Click(object sender, EventArgs e)
         {
-            double valorDeposito = Convert.ToDouble(textoValor.Text);
-            selecionada.Saca(valorDeposito);
-            textoSaldo.Text = Convert.ToString(selecionada.Saldo);
+            try
+            {
+                double valorDeposito = Convert.ToDouble(textoValor.Text);
+                selecionada.Saca(valorDeposito);
+                textoSaldo.Text = Convert.ToString(selecionada.Saldo);
+            }
+            catch (SaldoInsuficienteException ex)
+            {
+                MessageBox.Show("Saldo Insuficiente");
+            }
         }
 
         private void btTotalConta_Click(object sender, EventArgs e)

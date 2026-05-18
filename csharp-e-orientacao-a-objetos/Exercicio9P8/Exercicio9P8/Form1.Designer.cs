@@ -149,11 +149,6 @@
             232,
             0,
             0});
-            this.textoValor.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            -2147483648});
             this.textoValor.Name = "textoValor";
             // 
             // groupBox2

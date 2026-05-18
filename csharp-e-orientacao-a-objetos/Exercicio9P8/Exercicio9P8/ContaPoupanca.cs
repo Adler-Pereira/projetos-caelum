@@ -13,7 +13,7 @@ namespace Exercicio9P8
         {
             if (valor + 0.10 > this.Saldo)
             {
-                throw new Exception("Valor do saque maior que o saldo");
+                throw new SaldoInsuficienteException();
             }
             else
             {

@@ -3,31 +3,35 @@
   "WorkspaceRootPath": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\exercicio9p8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\exercicio9p8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\exercicio9p8\\contapoupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\contapoupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\exercicio9p8\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\exercicio9p8\\formcadastroconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\formcadastroconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|c:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\exercicio9p8\\exercicio9p8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\exercicio9p8\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|c:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\exercicio9p8\\exercicio9p8\\formcadastroconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\exercicio9p8\\contapoupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\contapoupanca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|c:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\exercicio9p8\\exercicio9p8\\saldoinsuficienteexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\saldoinsuficienteexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\exercicio9p8\\formcadastroconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\formcadastroconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\exercicio9p8\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\conta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\exercicio9p8\\formcadastroconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78A4C1AC-52C2-418E-9D14-DB1F0B965891}|Exercicio9P8\\Exercicio9P8.csproj|solutionrelative:exercicio9p8\\formcadastroconta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +62,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "SaldoInsuficienteException.cs",
+              "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\SaldoInsuficienteException.cs",
+              "RelativeDocumentMoniker": "Exercicio9P8\\SaldoInsuficienteException.cs",
+              "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\SaldoInsuficienteException.cs",
+              "RelativeToolTip": "Exercicio9P8\\SaldoInsuficienteException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T14:21:43.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "TotalizadorDeTributos.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\TotalizadorDeTributos.cs",
               "RelativeDocumentMoniker": "Exercicio9P8\\TotalizadorDeTributos.cs",
@@ -70,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SeguroDeVida.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\SeguroDeVida.cs",
               "RelativeDocumentMoniker": "Exercicio9P8\\SeguroDeVida.cs",
@@ -82,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ITributavel.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\ITributavel.cs",
               "RelativeDocumentMoniker": "Exercicio9P8\\ITributavel.cs",
@@ -94,46 +111,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\Form1.cs",
               "RelativeDocumentMoniker": "Exercicio9P8\\Form1.cs",
               "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\Form1.cs",
               "RelativeToolTip": "Exercicio9P8\\Form1.cs",
-              "ViewState": "AgIAABoAAACAPiE7b3McwC4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwDsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-12T13:04:32.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ContaPoupanca.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\ContaPoupanca.cs",
               "RelativeDocumentMoniker": "Exercicio9P8\\ContaPoupanca.cs",
               "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\ContaPoupanca.cs",
               "RelativeToolTip": "Exercicio9P8\\ContaPoupanca.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T11:29:27.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ContaCorrente.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\ContaCorrente.cs",
               "RelativeDocumentMoniker": "Exercicio9P8\\ContaCorrente.cs",
               "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\ContaCorrente.cs",
               "RelativeToolTip": "Exercicio9P8\\ContaCorrente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAQKN06f/4vw4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-14T11:29:26.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\Form1.cs",
               "RelativeDocumentMoniker": "Exercicio9P8\\Form1.cs",
@@ -145,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FormCadastroConta.cs [Design]",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\FormCadastroConta.cs",
               "RelativeDocumentMoniker": "Exercicio9P8\\FormCadastroConta.cs",
@@ -157,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FormCadastroConta.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\FormCadastroConta.cs",
               "RelativeDocumentMoniker": "Exercicio9P8\\FormCadastroConta.cs",
@@ -170,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Conta.cs",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\Exercicio9P8\\Exercicio9P8\\Conta.cs",
               "RelativeDocumentMoniker": "Exercicio9P8\\Conta.cs",
@@ -178,8 +195,7 @@
               "RelativeToolTip": "Exercicio9P8\\Conta.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAlwBQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T17:28:04.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-08T17:28:04.692Z"
             }
           ]
         }

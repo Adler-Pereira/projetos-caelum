@@ -10,12 +10,26 @@ namespace Exercicio9P8
     {
         public override void Saca(double valor)
         {
-            Saldo -= valor + 0.05;
+            if (valor + 0.05 > Saldo)
+            {
+                throw new SaldoInsuficienteException();
+            }
+            else
+            {
+                Saldo -= valor + 0.05;
+            }
         }
 
         public override void Deposita(double valor)
         {
-            Saldo += valor - 0.10;
+            if (valor - 0.10 < 0)
+            {
+                throw new ArgumentException();
+            }
+            else
+            {
+                Saldo += valor - 0.10;
+            }
         }
 
         public double CalculaTributos()
