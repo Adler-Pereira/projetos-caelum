@@ -10,12 +10,12 @@ namespace Exercicio9P8
     {
         public override void Saca(double valor)
         {
-            Saldo -= Convert.ToDouble(valor + 0.05);
+            Saldo -= valor + 0.05;
         }
 
         public override void Deposita(double valor)
         {
-            Saldo += Convert.ToDouble(valor - 0.10);
+            Saldo += valor - 0.10;
         }
 
         public double CalculaTributos()

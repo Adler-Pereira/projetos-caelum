@@ -371,6 +371,15 @@
   <data name="&gt;&gt;btTotalConta.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="textoValor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 145</value>
+  </data>
+  <data name="textoValor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 20</value>
+  </data>
+  <data name="textoValor.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="&gt;&gt;textoValor.Name" xml:space="preserve">
     <value>textoValor</value>
   </data>
@@ -406,27 +415,6 @@
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>7</value>
-  </data>
-  <data name="textoValor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 145</value>
-  </data>
-  <data name="textoValor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 20</value>
-  </data>
-  <data name="textoValor.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;textoValor.Name" xml:space="preserve">
-    <value>textoValor</value>
-  </data>
-  <data name="&gt;&gt;textoValor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textoValor.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;textoValor.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;comboContas.Name" xml:space="preserve">
     <value>comboContas</value>

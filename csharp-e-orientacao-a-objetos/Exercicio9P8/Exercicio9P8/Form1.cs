@@ -45,9 +45,16 @@ namespace Exercicio9P8
 
         private void botaoDepositar_Click(object sender, EventArgs e)
         {
-            double valorDeposito = Convert.ToDouble(textoValor.Text);
-            selecionada.Deposita(valorDeposito);
-            textoSaldo.Text = Convert.ToString(selecionada.Saldo);
+            try
+            {
+                double valorDeposito = Convert.ToDouble(textoValor.Text);
+                selecionada.Deposita(valorDeposito);
+                textoSaldo.Text = Convert.ToString(selecionada.Saldo);
+            }
+            catch (ArgumentException ex)
+            {
+                MessageBox.Show("Argumento Inválido");
+            }
         }
 
         private void botaoSacar_Click(object sender, EventArgs e)
