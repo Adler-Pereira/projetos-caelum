@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Exercicio9P8
+namespace Exercicio9P8.Contas
 {
     public abstract class Conta
     {

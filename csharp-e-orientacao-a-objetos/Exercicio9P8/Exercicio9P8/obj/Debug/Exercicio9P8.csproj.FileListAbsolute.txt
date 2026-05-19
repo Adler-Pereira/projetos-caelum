@@ -9,3 +9,14 @@ C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercici
 C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\obj\Debug\Exercicio9P8.exe
 C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\obj\Debug\Exercicio9P8.pdb
 C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\obj\Debug\Exercicio9P8.FormCadastroConta.resources
+C:\dev\estudos\csharp\caelum\projetos-caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\bin\Debug\Exercicio9P8.exe.config
+C:\dev\estudos\csharp\caelum\projetos-caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\bin\Debug\Exercicio9P8.exe
+C:\dev\estudos\csharp\caelum\projetos-caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\bin\Debug\Exercicio9P8.pdb
+C:\dev\estudos\csharp\caelum\projetos-caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\obj\Debug\Exercicio9P8.csproj.AssemblyReference.cache
+C:\dev\estudos\csharp\caelum\projetos-caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\obj\Debug\Exercicio9P8.Form1.resources
+C:\dev\estudos\csharp\caelum\projetos-caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\obj\Debug\Exercicio9P8.FormCadastroConta.resources
+C:\dev\estudos\csharp\caelum\projetos-caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\obj\Debug\Exercicio9P8.Properties.Resources.resources
+C:\dev\estudos\csharp\caelum\projetos-caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\obj\Debug\Exercicio9P8.csproj.GenerateResource.cache
+C:\dev\estudos\csharp\caelum\projetos-caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\obj\Debug\Exercicio9P8.csproj.CoreCompileInputs.cache
+C:\dev\estudos\csharp\caelum\projetos-caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\obj\Debug\Exercicio9P8.exe
+C:\dev\estudos\csharp\caelum\projetos-caelum\csharp-e-orientacao-a-objetos\Exercicio9P8\Exercicio9P8\obj\Debug\Exercicio9P8.pdb
