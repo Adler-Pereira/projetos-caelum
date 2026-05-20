@@ -83,7 +83,7 @@ namespace Exercicio9P8
         {
             selecionada = (Conta) comboContas.SelectedItem;
 
-            textoTitular.Text = Convert.ToString(selecionada);
+            textoTitular.Text = Convert.ToString(selecionada.Titular);
             textoSaldo.Text = Convert.ToString(selecionada.Saldo);
             textoNumero.Text = Convert.ToString(selecionada.Numero);
         }
@@ -111,7 +111,9 @@ namespace Exercicio9P8
             this.contas[this.numeroDeContas] = conta;
             this.numeroDeContas++;
             comboContas.Items.Add(conta);
+            comboContas.DisplayMember = "Titular";
             comboDestinoTransferencia.Items.Add(conta);
+            comboDestinoTransferencia.DisplayMember = "Titular";
         }
 
         private void btNovaConta_Click(object sender, EventArgs e)
