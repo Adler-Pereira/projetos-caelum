@@ -49,6 +49,7 @@ namespace Exercicio9P8
             try
             {
                 double valorDeposito = Convert.ToDouble(textoValor.Text);
+                selecionada = (Conta) comboContas.SelectedItem;
                 selecionada.Deposita(valorDeposito);
                 textoSaldo.Text = Convert.ToString(selecionada.Saldo);
             }
@@ -63,6 +64,7 @@ namespace Exercicio9P8
             try
             {
                 double valorDeposito = Convert.ToDouble(textoValor.Text);
+                selecionada = (Conta) comboContas.SelectedItem;
                 selecionada.Saca(valorDeposito);
                 textoSaldo.Text = Convert.ToString(selecionada.Saldo);
             }
@@ -79,10 +81,9 @@ namespace Exercicio9P8
 
         private void comboContas_SelectedIndexChanged(object sender, EventArgs e)
         {
-            int indice = comboContas.SelectedIndex;
-            selecionada = this.contas[indice];
+            selecionada = (Conta) comboContas.SelectedItem;
 
-            textoTitular.Text = selecionada.Titular.Nome;
+            textoTitular.Text = Convert.ToString(selecionada);
             textoSaldo.Text = Convert.ToString(selecionada.Saldo);
             textoNumero.Text = Convert.ToString(selecionada.Numero);
         }
@@ -109,8 +110,8 @@ namespace Exercicio9P8
 
             this.contas[this.numeroDeContas] = conta;
             this.numeroDeContas++;
-            comboContas.Items.Add(conta.Titular.Nome);
-            comboDestinoTransferencia.Items.Add(conta.Titular.Nome);
+            comboContas.Items.Add(conta);
+            comboDestinoTransferencia.Items.Add(conta);
         }
 
         private void btNovaConta_Click(object sender, EventArgs e)

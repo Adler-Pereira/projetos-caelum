@@ -24,5 +24,10 @@ namespace Exercicio9P8.Contas
         {
             return numeroDeContas + 1;
         }
+
+        public override string ToString()
+        {
+            return this.Titular.Nome;
+        }
     }
 }
