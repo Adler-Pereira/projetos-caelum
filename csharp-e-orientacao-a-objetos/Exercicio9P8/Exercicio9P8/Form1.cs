@@ -13,10 +13,9 @@ namespace Exercicio9P8
 {
     public partial class Form1 : Form
     {
-        private Conta[] contas = new Conta[1];
+        private List<Conta> contas;
         private Conta[] contasAux;
         private Conta selecionada;
-        private int numeroDeContas = 0;
         private TotalizadorDeContas totalContas = new TotalizadorDeContas();
 
         public Form1()
@@ -26,6 +25,8 @@ namespace Exercicio9P8
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            contas = new List<Conta>();
+
             Conta c1 = new ContaCorrente();
             c1.Titular = new Titular("Victor");
             c1.Numero = 1;
@@ -102,14 +103,7 @@ namespace Exercicio9P8
 
         public void AdicionaConta(Conta conta)
         {
-            contasAux = new Conta[contas.Length];
-            contasAux = contas;
-            contas = new Conta[contasAux.Length+1];
-
-            for (int i = 0; i < contasAux.Length; i++) contas[i] = contasAux[i];
-
-            this.contas[this.numeroDeContas] = conta;
-            this.numeroDeContas++;
+            contas.Add(conta);
             comboContas.Items.Add(conta);
             comboContas.DisplayMember = "Titular";
             comboDestinoTransferencia.Items.Add(conta);
@@ -131,17 +125,6 @@ namespace Exercicio9P8
                     ContaCorrente contaCorrente = (ContaCorrente)conta;
                     double imposto = contaCorrente.CalculaTributos();
                     MessageBox.Show("Imposto da conta " + conta.Numero + ": " + imposto);
-
-
-                    //PERGUNTAR AO FABIO SOBRE OS "AS" ABAIXO
-                    //
-                    //ContaCorrente contaCorrente = conta as ContaCorrente;
-                    //double imposto = contaCorrente.CalculaTributos();
-                    //MessageBox.Show("Imposto da conta " + conta.Numero + ": " + imposto);
-                    //
-                    //ITributavel iTributavel = conta as ITributavel;
-                    //double imposto = iTributavel.CalculaTributos();
-                    //MessageBox.Show("Imposto da conta " + conta.Numero + ": " + imposto);
                 }
             }
         }
