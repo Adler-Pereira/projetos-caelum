@@ -15,6 +15,7 @@ namespace Exercicio9P8
     {
         private List<Conta> contas;
         private Conta[] contasAux;
+        private Dictionary<string, Conta> dicionario;
         private Conta selecionada;
         private TotalizadorDeContas totalContas = new TotalizadorDeContas();
 
@@ -26,6 +27,7 @@ namespace Exercicio9P8
         private void Form1_Load(object sender, EventArgs e)
         {
             contas = new List<Conta>();
+            dicionario = new Dictionary<string, Conta>();
 
             Conta c1 = new ContaCorrente();
             c1.Titular = new Titular("Victor");
@@ -105,6 +107,7 @@ namespace Exercicio9P8
         {
             contas.Add(conta);
             comboContas.Items.Add(conta);
+            dicionario.Add(conta.Titular.Nome, conta);
             comboContas.DisplayMember = "Titular";
             comboDestinoTransferencia.Items.Add(conta);
             comboDestinoTransferencia.DisplayMember = "Titular";
@@ -126,6 +129,23 @@ namespace Exercicio9P8
                     double imposto = contaCorrente.CalculaTributos();
                     MessageBox.Show("Imposto da conta " + conta.Numero + ": " + imposto);
                 }
+            }
+        }
+
+        private void botaoBusca_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string nomeTitular = textoBuscaTitular.Text;
+
+                Conta conta = dicionario[nomeTitular];
+
+                textoTitular.Text = conta.Titular.Nome;
+                textoNumero.Text = Convert.ToString(conta.Numero);
+                textoSaldo.Text = Convert.ToString(conta.Saldo);
+            } catch (KeyNotFoundException ex)
+            {
+                MessageBox.Show("Titular não encontrado");
             }
         }
     }

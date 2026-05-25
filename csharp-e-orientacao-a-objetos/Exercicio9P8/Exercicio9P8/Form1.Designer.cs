@@ -42,6 +42,9 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textoValor = new System.Windows.Forms.NumericUpDown();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.botaoBusca = new System.Windows.Forms.Button();
+            this.textoBuscaTitular = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.comboContas = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -153,12 +156,33 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.botaoBusca);
+            this.groupBox2.Controls.Add(this.textoBuscaTitular);
+            this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.comboContas);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
+            // 
+            // botaoBusca
+            // 
+            this.botaoBusca.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.botaoBusca, "botaoBusca");
+            this.botaoBusca.Name = "botaoBusca";
+            this.botaoBusca.UseVisualStyleBackColor = true;
+            this.botaoBusca.Click += new System.EventHandler(this.botaoBusca_Click);
+            // 
+            // textoBuscaTitular
+            // 
+            resources.ApplyResources(this.textoBuscaTitular, "textoBuscaTitular");
+            this.textoBuscaTitular.Name = "textoBuscaTitular";
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.Name = "label8";
             // 
             // comboContas
             // 
@@ -288,6 +312,9 @@
         private System.Windows.Forms.Button btNovaConta;
         private System.Windows.Forms.NumericUpDown textoValor;
         private System.Windows.Forms.Button botaoImpostos;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button botaoBusca;
+        private System.Windows.Forms.TextBox textoBuscaTitular;
     }
 }
 
