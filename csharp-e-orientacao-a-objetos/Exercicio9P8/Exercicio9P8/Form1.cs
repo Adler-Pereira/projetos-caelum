@@ -140,6 +140,8 @@ namespace Exercicio9P8
 
                 Conta conta = dicionario[nomeTitular];
 
+                comboContas.SelectedItem = conta;
+
                 textoTitular.Text = conta.Titular.Nome;
                 textoNumero.Text = Convert.ToString(conta.Numero);
                 textoSaldo.Text = Convert.ToString(conta.Saldo);
