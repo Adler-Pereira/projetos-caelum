@@ -24,10 +24,15 @@ namespace Exercicio9P8
         {
             listaResultado.Items.Clear();
 
-            var resultado = from c in contas
-                            where c.Saldo > 5000
-                            orderby c.Titular.Nome
-                            select c;
+            var resultado = contas
+                .Where(c => c.Saldo > 5000)
+                .OrderBy(c => c.Titular.Nome)
+                .ThenBy(c => c.Numero);
+
+            //from c in contas
+            //where c.Saldo > 5000
+            //orderby c.Titular.Nome
+            //select c
 
             foreach (var c in resultado)
                 listaResultado.Items.Add(c);
@@ -48,7 +53,7 @@ namespace Exercicio9P8
 
             var resultado = from c in contas
                             where c.Numero < 10 && c.Saldo > 1000
-                            orderby c.Titular.Nome
+                            orderby c.Titular.Nome, c.Numero
                             select c;
 
             foreach (var c in resultado)
