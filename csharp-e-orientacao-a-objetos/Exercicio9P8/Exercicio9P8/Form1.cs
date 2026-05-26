@@ -150,5 +150,11 @@ namespace Exercicio9P8
                 MessageBox.Show("Titular não encontrado");
             }
         }
+
+        private void botaoRelatorio_Click(object sender, EventArgs e)
+        {
+            FormRelatorios form = new FormRelatorios(this.contas);
+            form.ShowDialog();
+        }
     }
 }

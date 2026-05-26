@@ -55,6 +55,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.btNovaConta = new System.Windows.Forms.Button();
             this.botaoImpostos = new System.Windows.Forms.Button();
+            this.botaoRelatorio = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textoValor)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -259,11 +260,19 @@
             this.botaoImpostos.UseVisualStyleBackColor = true;
             this.botaoImpostos.Click += new System.EventHandler(this.botaoImpostos_Click);
             // 
+            // botaoRelatorio
+            // 
+            resources.ApplyResources(this.botaoRelatorio, "botaoRelatorio");
+            this.botaoRelatorio.Name = "botaoRelatorio";
+            this.botaoRelatorio.UseVisualStyleBackColor = true;
+            this.botaoRelatorio.Click += new System.EventHandler(this.botaoRelatorio_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Controls.Add(this.botaoRelatorio);
             this.Controls.Add(this.botaoImpostos);
             this.Controls.Add(this.btNovaConta);
             this.Controls.Add(this.groupBox3);
@@ -315,6 +324,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button botaoBusca;
         private System.Windows.Forms.TextBox textoBuscaTitular;
+        private System.Windows.Forms.Button botaoRelatorio;
     }
 }
 
