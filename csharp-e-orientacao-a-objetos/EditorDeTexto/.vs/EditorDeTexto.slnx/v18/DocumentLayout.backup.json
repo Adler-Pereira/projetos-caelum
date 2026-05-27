@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\estudos\\csharp\\caelum\\projetos-caelum\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A64AB169-90FC-4EEF-AA5D-05852C52880E}|EditorDeTexto\\EditorDeTexto.csproj|c:\\dev\\estudos\\csharp\\caelum\\projetos-caelum\\csharp-e-orientacao-a-objetos\\editordetexto\\editordetexto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A64AB169-90FC-4EEF-AA5D-05852C52880E}|EditorDeTexto\\EditorDeTexto.csproj|solutionrelative:editordetexto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A64AB169-90FC-4EEF-AA5D-05852C52880E}|EditorDeTexto\\EditorDeTexto.csproj|C:\\dev\\estudos\\csharp\\caelum\\projetos-caelum\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\editordetexto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A64AB169-90FC-4EEF-AA5D-05852C52880E}|EditorDeTexto\\EditorDeTexto.csproj|solutionrelative:editordetexto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\projetos-caelum\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\EditorDeTexto\\Form1.cs",
+              "RelativeDocumentMoniker": "EditorDeTexto\\Form1.cs",
+              "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\projetos-caelum\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\EditorDeTexto\\Form1.cs",
+              "RelativeToolTip": "EditorDeTexto\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T12:09:01.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\projetos-caelum\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\EditorDeTexto\\Form1.cs",
+              "RelativeDocumentMoniker": "EditorDeTexto\\Form1.cs",
+              "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\EditorDeTexto\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\EditorDeTexto\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T12:04:22.915Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\EditorDeTexto\EditorDeTexto\bin\Debug\EditorDeTexto.exe.config
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\EditorDeTexto\EditorDeTexto\bin\Debug\EditorDeTexto.exe
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\EditorDeTexto\EditorDeTexto\bin\Debug\EditorDeTexto.pdb
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\EditorDeTexto\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.AssemblyReference.cache
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\EditorDeTexto\EditorDeTexto\obj\Debug\EditorDeTexto.Form1.resources
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\EditorDeTexto\EditorDeTexto\obj\Debug\EditorDeTexto.Properties.Resources.resources
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\EditorDeTexto\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.GenerateResource.cache
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\EditorDeTexto\EditorDeTexto\obj\Debug\EditorDeTexto.csproj.CoreCompileInputs.cache
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\EditorDeTexto\EditorDeTexto\obj\Debug\EditorDeTexto.exe
+C:\dev\estudos\csharp\caelum\csharp-e-orientacao-a-objetos\EditorDeTexto\EditorDeTexto\obj\Debug\EditorDeTexto.pdb
