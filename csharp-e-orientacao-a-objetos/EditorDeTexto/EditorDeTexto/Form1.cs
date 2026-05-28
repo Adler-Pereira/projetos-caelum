@@ -56,22 +56,40 @@ namespace EditorDeTexto
 
         private void botaoReplace_Click(object sender, EventArgs e)
         {
-            string busca = textoBusca.Text;
-            string alteracao = textoReplace.Text;
-            string textoDoEditor = textoConteudo.Text;
-            
-            int ocorrenciaIndice = textoDoEditor.IndexOf(busca);
-            string textoEditorAlterado = textoDoEditor.Replace(busca, alteracao);
-
-            textoConteudo.Text = textoEditorAlterado;
+            alterarOcorrencia(textoBusca.Text, textoReplace.Text);
         }
 
         private void botaoCaixaAlta_Click(object sender, EventArgs e)
         {
-            string busca = textoBusca.Text;
+            string textoDoEditor = textoConteudo.Text;
+            int inicioSelecao = textoConteudo.SelectionStart;
+            int tamanhoSelecao = textoConteudo.SelectionLength;
+
+            string trecho = textoDoEditor.Substring(inicioSelecao, tamanhoSelecao);
+            string trechoAlteracao = trecho.ToUpper();
+
+            alterarOcorrencia(trecho, trechoAlteracao);
+        }
+
+        private void botaoCaixaBaixa_Click(object sender, EventArgs e)
+        {
+            string textoDoEditor = textoConteudo.Text;
+            int inicioSelecao = textoConteudo.SelectionStart;
+            int tamanhoSelecao = textoConteudo.SelectionLength;
+
+            string trecho = textoDoEditor.Substring(inicioSelecao, tamanhoSelecao);
+            string trechoAlteracao = trecho.ToLower();
+
+            alterarOcorrencia(trecho, trechoAlteracao);
+        }
+
+        private void alterarOcorrencia(string busca, string alteracao)
+        {
             string textoDoEditor = textoConteudo.Text;
 
-            textoConteudo.Text = textoDoEditor.ToUpper();
+            string textoEditorAlterado = textoDoEditor.Replace(busca, alteracao);
+
+            textoConteudo.Text = textoEditorAlterado;
         }
     }
 }
