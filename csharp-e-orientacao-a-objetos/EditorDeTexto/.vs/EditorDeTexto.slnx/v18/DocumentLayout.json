@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "EditorDeTexto\\Form1.cs",
               "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\projetos-caelum\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\EditorDeTexto\\Form1.cs",
               "RelativeToolTip": "EditorDeTexto\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAADgv0kAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-27T12:09:01.81Z",
               "EditorCaption": ""
@@ -43,10 +43,11 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\dev\\estudos\\csharp\\caelum\\projetos-caelum\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\EditorDeTexto\\Form1.cs",
               "RelativeDocumentMoniker": "EditorDeTexto\\Form1.cs",
-              "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\EditorDeTexto\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\EditorDeTexto\\Form1.cs [Design]",
+              "ToolTip": "C:\\dev\\estudos\\csharp\\caelum\\projetos-caelum\\csharp-e-orientacao-a-objetos\\EditorDeTexto\\EditorDeTexto\\Form1.cs [Design]",
+              "RelativeToolTip": "EditorDeTexto\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T12:04:22.915Z"
+              "WhenOpened": "2026-05-27T12:04:22.915Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -38,5 +38,40 @@ namespace EditorDeTexto
                 escritor.Write(textoConteudo.Text);
             }
         }
+
+        private void botaoBusca_Click(object sender, EventArgs e)
+        {
+            string busca = textoBusca.Text;
+            string textoDoEditor = textoConteudo.Text;
+            int resultado = textoDoEditor.IndexOf(busca);
+            if (resultado >= 0)
+            {
+                MessageBox.Show("Achei o texto " + busca);
+            }
+            else
+            {
+                MessageBox.Show("Não achei");
+            }
+        }
+
+        private void botaoReplace_Click(object sender, EventArgs e)
+        {
+            string busca = textoBusca.Text;
+            string alteracao = textoReplace.Text;
+            string textoDoEditor = textoConteudo.Text;
+            
+            int ocorrenciaIndice = textoDoEditor.IndexOf(busca);
+            string textoEditorAlterado = textoDoEditor.Replace(busca, alteracao);
+
+            textoConteudo.Text = textoEditorAlterado;
+        }
+
+        private void botaoCaixaAlta_Click(object sender, EventArgs e)
+        {
+            string busca = textoBusca.Text;
+            string textoDoEditor = textoConteudo.Text;
+
+            textoConteudo.Text = textoDoEditor.ToUpper();
+        }
     }
 }
