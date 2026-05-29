@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Busca\GeradorDeDevedores.cs" />
+    <Compile Include="ContaExtensions.cs" />
     <Compile Include="Contas\Conta.cs" />
     <Compile Include="Contas\ContaCorrente.cs" />
     <Compile Include="Contas\ContaPoupanca.cs" />
@@ -69,6 +70,7 @@
       <DependentUpon>FormRelatorios.cs</DependentUpon>
     </Compile>
     <Compile Include="ITributavel.cs" />
+    <Compile Include="ObjectExtensions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SaldoInsuficienteException.cs" />

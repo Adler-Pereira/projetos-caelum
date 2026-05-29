@@ -29,5 +29,13 @@ namespace Exercicio9P8.Contas
         {
             return this.Titular.Nome;
         }
+
+        public static class ContaExtensions
+        {
+            public static void MudaTitular(Conta c, Titular titular)
+            {
+                c.Titular = titular;
+            }
+        }
     }
 }
